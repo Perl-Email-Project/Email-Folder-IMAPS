@@ -1,0 +1,15 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Email-Folder-IMAPS
+version:      1.04
+version_from: lib/Email/Folder/IMAPS.pm
+installdirs:  site
+requires:
+    Email::Folder::IMAP:           
+    Email::FolderType::Net:        
+    Net::IMAP::Simple::SSL:        
+    Test::More:                    0.47
+    URI::imaps:                    
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17
