@@ -1,3 +1,7 @@
+1.21    2006-07-07
+
+  - require newer Net::IMAP::Simple::SSL to allow port config
+
 1.04    2005-05-03
 
   - Fixed distribution broken by

@@ -1,9 +1,8 @@
 package Email::Folder::IMAPS;
-# $Id: IMAPS.pm,v 1.4 2005/05/04 02:15:37 cwest Exp $
 use strict;
 
 use vars qw[$VERSION];
-$VERSION   = '1.04';
+$VERSION   = '1.21';
 
 use base qw[Email::Folder::IMAP];
 use Net::IMAP::Simple::SSL;
