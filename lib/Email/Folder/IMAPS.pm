@@ -2,7 +2,7 @@ package Email::Folder::IMAPS;
 use strict;
 
 use vars qw[$VERSION];
-$VERSION   = '1.21';
+$VERSION   = '1.10';
 
 use base qw[Email::Folder::IMAP];
 use Net::IMAP::Simple::SSL;
