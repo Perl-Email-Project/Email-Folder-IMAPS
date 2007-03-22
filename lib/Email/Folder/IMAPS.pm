@@ -2,7 +2,7 @@ package Email::Folder::IMAPS;
 use strict;
 
 use vars qw[$VERSION];
-$VERSION   = '1.10';
+$VERSION   = '1.101';
 
 use base qw[Email::Folder::IMAP];
 use Net::IMAP::Simple::SSL;
@@ -44,17 +44,17 @@ are a few examples.
 
 Selecting the INBOX.
 
-  https://foo.com
+  imaps://foo.com
 
 Selecting the INBOX using URI based authentication. Remember that the
 C<username> and C<password> parameters passed to C<new()> will override
 anything set in the URI.
 
-  https://user:pass@foo.com
+  imaps://user:pass@foo.com
 
 Selecting the p5p list.
 
-  https://foo.com/perl/perl5-porters
+  imaps://foo.com/perl/perl5-porters
 
 =head1 SEE ALSO
 
