@@ -9,8 +9,8 @@ WriteMakefile (
   PREREQ_PM     => {
     'Test::More'             => '0.47',
     'Email::FolderType::Net' => '',
-    'Email::Folder::IMAP'    => '',
-    'Net::IMAP::Simple::SSL' => '1.3', # :port
+    'Email::Folder::IMAP'    => '1.102', # _imap_class method
+    'Net::IMAP::Simple::SSL' => '1.3',   # :port
     'URI::imaps'             => '',
   },
   VERSION_FROM  => 'lib/Email/Folder/IMAPS.pm',

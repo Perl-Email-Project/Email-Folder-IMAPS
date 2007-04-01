@@ -1,3 +1,6 @@
+1.102     2007-04-01
+          be-a Email::Folder::IMAP without breaking Email::Folder::IMAP
+
 1.101     2007-03-22
           packaging improvements
           fix documentation
