@@ -1,3 +1,8 @@
+Revision history for Email-Folder-IMAPS
+
+{{$NEXT}}
+          repackage to update bug tracker and repo data
+
 1.102     2007-04-01
           be-a Email::Folder::IMAP without breaking Email::Folder::IMAP
 
