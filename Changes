@@ -1,6 +1,8 @@
 Revision history for Email-Folder-IMAPS
 
 {{$NEXT}}
+
+1.104     2014-01-03 19:56:55 America/New_York
           fix VERSION assignment mismatch
 
 1.103     2013-08-05 18:25:27 America/New_York
