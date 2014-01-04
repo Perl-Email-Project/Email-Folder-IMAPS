@@ -3,8 +3,6 @@ use warnings;
 package Email::Folder::IMAPS;
 # ABSTRACT: Email::Folder Access to IMAP over SSL Folders
 
-our $VERSION = '1.102';
-
 use Email::Folder::IMAP 1.102 ();   # _imap_class;
 use parent qw[Email::Folder::IMAP]; # Argh, no version specifier!
 use Net::IMAP::Simple::SSL 1.3;     # :port
