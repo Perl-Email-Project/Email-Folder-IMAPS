@@ -1,6 +1,7 @@
 Revision history for Email-Folder-IMAPS
 
 {{$NEXT}}
+          require URI::imap and URI::imaps
 
 1.104     2014-01-03 19:56:55 America/New_York
           fix VERSION assignment mismatch
