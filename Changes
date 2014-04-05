@@ -1,6 +1,8 @@
 Revision history for Email-Folder-IMAPS
 
 {{$NEXT}}
+
+1.105     2014-04-04 22:25:41-04:00 America/New_York
           require URI::imap and URI::imaps
 
 1.104     2014-01-03 19:56:55 America/New_York
